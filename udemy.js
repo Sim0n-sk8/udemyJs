@@ -4,8 +4,9 @@ function lifeInWeeks(age){
     var eAged = endAge *365;
     var cAged = cAge * 365;
 
-    dLeft = eAged - cAged;
+     var dLeft = eAged - cAged;
 
-    console.log(dLeft);
+
+    console.log(cAge);
 
 }
