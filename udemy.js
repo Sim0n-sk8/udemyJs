@@ -7,6 +7,6 @@ function lifeInWeeks(age){
      var dLeft = eAged - cAged;
 
 
-    console.log(cAge);
+    alert(dLeft);
 
 }
