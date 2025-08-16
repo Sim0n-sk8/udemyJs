@@ -1,12 +1,11 @@
 function lifeInWeeks(age){
-    var cAge =21;
-    var endAge = 90;
-    var eAged = endAge *365;
-    var cAged = cAge * 365;
-    eAged - cAged;
+    const  lifeLeft = 90 -age;
+
+    const weekLeft = lifeLeft * 52;
+    cosnt dayLeft = lifeLeft * 365;
+    const monthLeft = lifLeft * 12;
 
 
+console.log(`You have ${dayLeft} days, ${weekLeft} weeks, and ${monthLeft} months left.`);}
 
-}
-
-    alert(age);
+    
