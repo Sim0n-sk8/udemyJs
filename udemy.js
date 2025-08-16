@@ -3,10 +3,10 @@ function lifeInWeeks(age){
     var endAge = 90;
     var eAged = endAge *365;
     var cAged = cAge * 365;
+    eAged - cAged;
 
-     var dLeft = eAged - cAged;
 
-
-    alert(dLeft);
 
 }
+
+    alert(age);
