@@ -1,11 +1,15 @@
-var array = ["Simon", "Cait", "Dan"];
+var output = [];
+var num = 1;
+function fizzbuzz(){
+    
+    
+    output.push(num);
+    num++;
+    // works lol
 
 
-var nm = prompt("whart is your name?");
-
-
-if(array.includes(nm)){
-    alert("welcome");
-}else{
-    alert("not welcome");
+    console.log(output);
 }
+
+
+fizzbuzz();
