@@ -3,11 +3,19 @@ function beer(){
     let beerLeft = 99;
 
 
-    while(beerLeft > 1){
-        console.log(beerLeft + " bottles of beer on the wall, " + beerLeft + "bottles of beer.");
+    while(beerLeft > 0){
+
+    if(beerLeft === 1){
+        console.log(beerLeft + " bottles of beer on the wall, " + beerLeft + " bottle of beer.");
+        beerLeft--;
+        console.log("Take one down and pass it around, no more bottles of beer on the wall.")
+    }else{
+        
+        console.log(beerLeft + " bottles of beer on the wall, " + beerLeft + " bottles of beer.");
         beerLeft--;
         console.log("Take one down and pass it around, " + beerLeft + " bottles of beer on the wall.")
         
+    }
     }
 
     console.log("No more bottles of beer on the wall, no more bottles of beer.");
