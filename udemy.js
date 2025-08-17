@@ -1,32 +1,20 @@
-var output = [];
-var num = 1;
-function fizzbuzz(){
+function whosPaying(names) {
     
-    fizz = 3;
-    buzz = 5;
-
-    max = 100;
+/******Don't change the code above*******/
     
-    
-    
-    // works lol
-    
-    if(num % fizz === 0 && num % buzz === 0){
-        output.push("fizzbuzz");
-    } else if(num % buzz === 0){
-        output.push("buzz")
-    }else if(num % fizz === 0){
-        output.push("fizz");
-    }else{
-        output.push(num);
-        
-    }
-        num++;
-    
+    //Write your code here.
     
 
-    console.log(output);
+
+
+    //gonna restart laptop heat issue
+    
+
+
+   //["Angela", "Ben", "Jenny", "Michael", "Chloe"]
+    
+    //Michael is going to buy lunch today!
+
+
+/******Don't change the code below*******/    
 }
-
-
-fizzbuzz();
