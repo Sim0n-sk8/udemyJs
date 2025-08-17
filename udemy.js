@@ -1,22 +1,11 @@
-function isLeap(year) {
-    
-/**************Don't change the code above****************/    
-    
-    if( year % 400 === 0){
-         alert("Leap year.");
-    }
-     else if (year % 100 === 0){
-        alert("Not leap year.");
-    }
+var array = ["Simon", "Cait", "Dan"];
 
-    else if( year % 4 === 0){
-         alert("Leap year.");
-    }
 
-    else{
-         alert("Not leap year.");
-    }
+var nm = prompt("whart is your name?");
 
-/**************Don't change the code below****************/    
 
+if(array.includes(nm)){
+    alert("welcome");
+}else{
+    alert("not welcome");
 }
