@@ -19,7 +19,7 @@ function fibonacciGenerator (n) {
 
 
     //WTF IS A GRASS
-// still dont know
+// still dont know yup
     
     
 
